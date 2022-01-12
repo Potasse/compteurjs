@@ -30,9 +30,12 @@
 
 .show_message {
 	
-	display: block !important ;
+	display: inline-block !important ;
+	justify-content: center;
 	padding: 1rem 0 ;
 	color: black;
+	height: 60px;
+	width: 500px;
 	background-color: blue;
 
 }
@@ -202,3 +205,4 @@ ul {
   #change{
 	  color: black;
   }
+
